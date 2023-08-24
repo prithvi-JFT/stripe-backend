@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 
-const sequelize = new Sequelize('stripeDB', 'root', 'password', {
+const sequelize = new Sequelize('stripeDB', 'root', 'Prith@12345', {
 	host: 'localhost',
 	dialect: 'mysql',
 });
